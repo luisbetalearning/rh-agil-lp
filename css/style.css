@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-size: 123px;
+  font-size: 100px;
   font-weight: 700;
   color: #fff;
   line-height: 88px;
@@ -169,35 +169,29 @@ h1, h2, h3, h4, h5, h6 {
 
 /****/
 
-#cta-1 {
+#description {
   padding: 40px 0px;
 }
 
-.card-yellow {
+.description-title {
   background-color: #FFD34E;
+  padding-bottom: 40px;
+  color: #fff;
+  text-decoration-style: solid;
 }
 
-.cta-info-left {
-  background-color: #FFD34E;
-  padding: 5px 20px;
-}
-
-.cta-info-right {
-  border-width: 0px 2px 2px 0px;
+.description-left {
+  border-width: 3px 0px 0px 3px;
   border-style: solid;
   border-color: #FFD34E;
-  padding: 5px 20px;
+  padding: 45px 20px;
 }
 
-.cta-info-mid {
-  border-width: 0px 2px 0px 2px;
+.description-right {
+  border-width: 0px 3px 3px 0px;
   border-style: solid;
   border-color: #FFD34E;
-  padding: 5px 20px;
-}
-
-.first-letter {
-  font-size: 50px;
+  padding: 50px 20px;
 }
 
 .cta-info h3 {
